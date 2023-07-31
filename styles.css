@@ -145,16 +145,39 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    color: #FDF8ED;
+    justify-content: space-between;
   }
 
   .AboutUs_Header {
-    color: #FDF8ED;
     font-size: xx-large;
+    font-weight: bolder;
     margin-top: 80px;
+    align-self: center;
   }
 
   .AboutUs_topSection {
-    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
     display: flex;
+    justify-content: space-between;
+   
+  }
+
+  .heading {
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .AboutUs_bottomSection {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .mid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
   }
