@@ -10,6 +10,10 @@ body {
   }
 
 /*------------------HOME PAGE -------------------*/
+.Home_Page {
+
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -51,7 +55,7 @@ body {
 
   .subHeading {
     color: #fff;
-    background-color: #e9a410;
+    background-color: #EC820E;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 5px;
@@ -62,7 +66,7 @@ body {
   .game-links {
     display: flex;
     list-style-type: none;
-    background-color:#fff;
+    background-color:#FDF8ED;
     padding-left: 90px;
     padding-right: 90px;
     border-radius: 50px;
@@ -80,4 +84,77 @@ body {
 
   .game-links li a:hover {
     color: #CD4C0E;
+  }
+
+  /*----------------GAME PAGE---------------------*/
+  .Games_Page {
+    background-image: url("./imgs/jo__rule_of_thirds_3d_animation_playing_video_games_2_african_c_eb1b8052-1f24-4334-b539-4e8e9f5510b5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top_section {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .left_section img {
+    width: 60%;
+  }
+
+  .right_section img {
+    width: 60%;
+  }
+
+  .mid_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom_section {
+    margin-top: -2%;
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+  }
+
+  .left_flex .subHeading {
+    width: 110px;
+  }
+
+  .right_flex .subHeading {
+    width: 110px;
+  }
+
+  .inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+/*-------------ABOUT US PAGE-------------*/
+.AboutUs_Page {
+    background-image: url("./imgs/0002.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .AboutUs_Header {
+    color: #FDF8ED;
+    font-size: xx-large;
+    margin-top: 80px;
+  }
+
+  .AboutUs_topSection {
+    margin-top: 50px;
+    display: flex;
   }
