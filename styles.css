@@ -25,6 +25,10 @@ body {
     align-items: center;
 }
 
+.nav-links .mobile-version {
+
+}
+
 .nav-links li {
     padding: 50px;
   }
@@ -81,6 +85,10 @@ body {
 
   .game-links li a:hover {
     color: #CD4C0E;
+  }
+
+  .header-mb {
+    display: none;
   }
 
   /*----------------GAMEs PAGE---------------------*/
@@ -144,6 +152,9 @@ body {
     flex-direction: column;
   }
 
+  .header-mb {
+    display: none;
+  }
 
 /*-------------ABOUT US PAGE-------------*/
 .AboutUs_Page {
@@ -342,6 +353,8 @@ body {
     }
 
 
+/*------------HOME PAGE-------------------*/
+
     .Home_Page {
         background-image: url("./imgs/jo__rule_of_thirds_3d_animation_playing_video_games_2_african_c_ccabfcff-3e50-4518-a964-be5bed62a011.png");
         background-size: cover;
@@ -350,14 +363,18 @@ body {
     }
 
     .header {
-        display: flex;
+        display: none;
+    }
+
+    .header-mb {
+        display: none;
         flex-direction: column;
         flex-direction: column-reverse;
         margin:auto;
         justify-content: space-around;
     }
 
-    .header img {
+    .header-mb img {
         margin-top: -15%;
         width: 60%;
         margin-left: 20%;
@@ -421,5 +438,12 @@ body {
       .game-links li a:hover {
         color: #CD4C0E;
       }
+
+
+/*------------------GAMES Page-------------------*/
+      .header-mb {
+        display: flex;
+      }
+
  }
   
