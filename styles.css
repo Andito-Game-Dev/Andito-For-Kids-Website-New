@@ -331,3 +331,95 @@ body {
     padding-right: 20px;
     margin-top: 70px;
   }
+
+
+
+  /*_____________________MOBILE VERSION_______________________*/ 
+
+  @media (max-width: 767px) {
+    body {
+        background-image: none;
+    }
+
+
+    .Home_Page {
+        background-image: url("./imgs/jo__rule_of_thirds_3d_animation_playing_video_games_2_african_c_ccabfcff-3e50-4518-a964-be5bed62a011.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        margin:auto;
+        justify-content: space-around;
+    }
+
+    .header img {
+        margin-top: -15%;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .nav-links{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-links li {
+        padding: 20px;
+      }
+
+    .nav-links img {
+        display: none;
+    }
+
+    .nav-links .pc-version {
+        display: none;
+    }
+
+    .Home_Page_footer {
+        display: flex;
+        flex-direction: column;
+        align-items:end;
+        margin-top: 320px;
+    }
+
+    .subHeading {
+        align-self: center;
+        color: #fff;
+        background-color: #EC820E;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 20px;
+      }
+    
+      .game-links {
+        display: flex;
+        list-style-type: none;
+        background-color:#FDF8ED;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 50px;
+      }
+    
+      .game-links li {
+        padding: 6px;
+      }
+    
+      .game-links li a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+      }
+    
+      .game-links li a:hover {
+        color: #CD4C0E;
+      }
+ }
+  
