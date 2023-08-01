@@ -304,8 +304,25 @@ body {
     flex-direction: column;
   }
 
+  .buttons .media-link {
+    border-radius: 40px;
+    border: none;
+    background:  rgba(27, 28, 29, 0.8);
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .address {
     display: flex;
+    border-radius: 30px;
+    border: none;
+    background:  rgba(27, 28, 29, 0.8);
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 10px;
   }
   
   .footer {
