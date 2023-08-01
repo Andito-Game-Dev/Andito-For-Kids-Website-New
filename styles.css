@@ -9,6 +9,10 @@ body {
     box-sizing: border-box;
   }
 
+  .OtherProducts_Page {
+    display: none;
+  }
+
 /*------------------HOME PAGE -------------------*/
 
 .header {
@@ -23,10 +27,6 @@ body {
     padding: 0;
     display: flex;
     align-items: center;
-}
-
-.nav-links .mobile-version {
-
 }
 
 .nav-links li {
@@ -91,7 +91,7 @@ body {
     display: none;
   }
 
-  /*----------------GAMEs PAGE---------------------*/
+  /*----------------GAMES PAGE---------------------*/
   .Games_Page {
     background-image: url("./imgs/jo__rule_of_thirds_3d_animation_playing_video_games_2_african_c_eb1b8052-1f24-4334-b539-4e8e9f5510b5.png");
     background-size: cover;
@@ -99,6 +99,10 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+  }
+
+  .Games_Page_Pc-Version {
+    display: none;
   }
 
   .top_section {
@@ -222,6 +226,14 @@ body {
     padding-right: 10px;
   }
 
+  #viewBtn-pc {
+    display: flex;
+}
+
+#joinBtn-mb {
+    display: none;
+}
+
   /*-------------CONTACT US PAGE-------------*/
 
   .ContactUS_Page {
@@ -343,7 +355,7 @@ body {
     margin-top: 70px;
   }
 
-
+  
 
   /*_____________________MOBILE VERSION_______________________*/ 
 
@@ -440,10 +452,244 @@ body {
       }
 
 
-/*------------------GAMES Page-------------------*/
+/*------------------GAMES Page-------------------*/      
+
       .header-mb {
         display: flex;
+        margin-top: 0px;
       }
 
- }
+      .Games_Page_Pc-Version {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 10px;
+      }
+
+      .top_section {
+        display: flex;
+        flex-direction: column;
+        align-items:end;
+      }
+
+      .mid_section {
+        display: none;
+      }
+
+      .top_section .left_section {
+        display: none;
+      }
+
+      .top_section .right_section {
+        display: none;
+      }
+      
+      .bottom_section {
+        display: none;
+      }
+
+      .Games_Page_Pc-Version .game-links li {
+        padding: 12px;
+      }
+
+      .footer_logo {
+        margin-bottom: 50px;
+      }
+
+
+/*-------------Other Products Page---------------*/
+
+.OtherProducts_Page {
+    background-image: url("./imgs/jo__rule_of_thirds_3d_animation_playing_video_games_2_african_c_eb1b8052-1f24-4334-b539-4e8e9f5510b5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .Games_Page2_Pc-Version {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .Games_Page2_Pc-Version .game-links li {
+    padding-right: 12px;
+  }
+
+
+/*------------About Us Page--------------------*/
+
+  .AboutUs_Page {
+    height: 142vh;
+  }
+
+  .AboutUs_Header {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: auto;
+    align-self: flex-start;
+    margin-left: 120px;
+  }
+
+  .AboutUs_topSection {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #viewBtn-pc {
+    display: none;
+  }
+
+  #joinBtn-mb {
+    display: flex;
+  }
+
+  .AboutUs_bottomSection .mid {
+    display: none;
+  }
+
+  .AboutUs_bottomSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .AboutUs_bottomSection .right {
+    align-self: center;
+  }
+  .aboutUs_footer_logo {
+    align-self: end;
+  }
+
+
+
+/*-------------CoNTACT US PAGE-----------------*/
+
+.ContactUS_Page {
+    background-image: url("./imgs/jo__rule_of_thirds_3d_animation_playing_video_games_2_african_c_eb1b8052-1f24-4334-b539-4e8e9f5510b5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .ContactUS_Header {
+    display: none;
+  }
+
+  .ContactUs_content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form {
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  
+  .contact-form h2 {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .contact-form form {
+    display: grid;
+    gap: 5px;
+  }
+  
+  .contact-form label {
+    color: #fff;
+  }
+  
+  .contact-form input[type="email"],
+  .contact-form input[type="text"],
+  .contact-form input[type="tel"],
+  .contact-form textarea {
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    width: 100%;
+  }
+  
+  .contact-form textarea {
+    height: 90px;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: #C9823D;
+    color: #003142;
+    font-weight:bolder ;
+    font-size: small;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .drop-message {
+    color: #003142;
+    font-weight: bolder;
+    font-size: large;
+  }
+
+  .social-media-details {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .social-media-details .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttons .media-link {
+    border-radius: 40px;
+    border: none;
+    background:  rgba(27, 28, 29, 0.8);
+    color: #fff;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .address {
+    display: flex;
+    border-radius: 30px;
+    border: none;
+    background:  rgba(27, 28, 29, 0.8);
+    color: #fff;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .footer {
+    text-align: right;
+    color: #fff;
+  }
+
+  .contactUs_footer {
+    display: flex;
+    justify-content: space-around;
+    justify-items:first baseline;
+  }
+
+  .contactUs_footer .aboutUs_footer_logo {
+    margin-top: 25px;
+  }
+
+}
   
