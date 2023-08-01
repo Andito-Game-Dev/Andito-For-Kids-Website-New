@@ -83,7 +83,7 @@ body {
     color: #CD4C0E;
   }
 
-  /*----------------GAME PAGE---------------------*/
+  /*----------------GAMEs PAGE---------------------*/
   .Games_Page {
     background-image: url("./imgs/jo__rule_of_thirds_3d_animation_playing_video_games_2_african_c_eb1b8052-1f24-4334-b539-4e8e9f5510b5.png");
     background-size: cover;
@@ -91,7 +91,6 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .top_section {
@@ -100,11 +99,23 @@ body {
   }
 
   .left_section img {
-    width: 60%;
+   margin-top: -7%;
+ 
   }
 
   .right_section img {
-    width: 60%;
+    margin-top: -7%;
+    
+  }
+
+  .avatar {
+    height: 400px;
+    width: 400px;
+    margin-bottom: -30%;
+  } 
+
+  .andito_for_kids_logo {
+    width: 90%;
   }
 
   .mid_section {
@@ -114,7 +125,7 @@ body {
   }
 
   .bottom_section {
-    margin-top: -2%;
+    margin-top: -8%;
     display: flex;
     justify-content: space-between;
     gap: 500px;
@@ -177,6 +188,27 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+  }
+
+  .aboutUs_btn {
+    background-color: #C9823D;
+    color: #FDF8ED;
+    font-weight: bolder;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 25px;
+    cursor: pointer;
+  }
+
+  .mid .media-link {
+    border-radius: 20px;
+    border: none;
+    background:  rgba(27, 28, 29, 0.8);
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 10px;
   }
 
   /*-------------CONTACT US PAGE-------------*/
